@@ -1,0 +1,89 @@
+,best_params,dataframe,model,time,training score,validation score
+0,"{'model__subsample': 0.8, 'model__num_leaves': 48, 'model__n_estimators': 300, 'model__min_data_in_leaf': 100, 'model__max_depth': 3, 'model__learning_rate': 0.02, 'model__feature_fraction': 0.4}","bureau, CC, no housing","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.3063,0.92,0.776
+1,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}","bureau, CC, no housing","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",1.483,0.676,0.686
+2,"{'model__subsample': 0.9, 'model__n_estimators': 500, 'model__max_depth': 4, 'model__learning_rate': 0.01}","bureau, CC, no housing",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,3.0429,0.871,0.791
+3,"{'model__subsample': 0.7, 'model__num_leaves': 100, 'model__n_estimators': 300, 'model__min_data_in_leaf': 75, 'model__max_depth': 2, 'model__learning_rate': 0.01, 'model__feature_fraction': 0.6}","bureau, app, no housing","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.2834,0.832,0.782
+4,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}","bureau, app, no housing","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",2.9745,0.689,0.715
+5,"{'model__subsample': 0.9, 'model__n_estimators': 500, 'model__max_depth': 4, 'model__learning_rate': 0.01}","bureau, app, no housing",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,2.9332,0.863,0.797
+6,"{'model__subsample': 0.8, 'model__num_leaves': 48, 'model__n_estimators': 300, 'model__min_data_in_leaf': 100, 'model__max_depth': 3, 'model__learning_rate': 0.02, 'model__feature_fraction': 0.4}","bureau, CC and POS","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.2843,0.928,0.781
+7,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}","bureau, CC and POS","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",2.214,0.68,0.68
+8,"{'model__subsample': 0.5, 'model__n_estimators': 300, 'model__max_depth': 5, 'model__learning_rate': 0.02}","bureau, CC and POS",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,2.7971,0.914,0.786
+9,"{'model__subsample': 0.5, 'model__num_leaves': 100, 'model__n_estimators': 200, 'model__min_data_in_leaf': 75, 'model__max_depth': 4, 'model__learning_rate': 0.05, 'model__feature_fraction': 1.0}","bureau, CC and app","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.5339,0.998,0.779
+10,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}","bureau, CC and app","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",3.4507,0.7,0.693
+11,"{'model__subsample': 0.9, 'model__n_estimators': 500, 'model__max_depth': 4, 'model__learning_rate': 0.01}","bureau, CC and app",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,3.6597,0.871,0.788
+12,"{'model__subsample': 0.8, 'model__num_leaves': 48, 'model__n_estimators': 300, 'model__min_data_in_leaf': 100, 'model__max_depth': 3, 'model__learning_rate': 0.02, 'model__feature_fraction': 0.4}","bureau, CC and installment","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.3617,0.929,0.784
+13,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}","bureau, CC and installment","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",1.7811,0.696,0.68
+14,"{'model__subsample': 0.8, 'model__n_estimators': 300, 'model__max_depth': 4, 'model__learning_rate': 0.1}","bureau, CC and installment",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,2.015,0.993,0.771
+15,"{'model__subsample': 0.8, 'model__num_leaves': 48, 'model__n_estimators': 300, 'model__min_data_in_leaf': 100, 'model__max_depth': 3, 'model__learning_rate': 0.02, 'model__feature_fraction': 0.4}","bureau, CC and installment, no housing","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.2684,0.925,0.782
+16,"{'model__subsample': 0.7, 'model__reg_lambda': 4, 'model__reg_alpha': 1e-05, 'model__n_estimators': 1000, 'model__min_child_weight': 3, 'model__max_depth': 5, 'model__learning_rate': 0.16, 'model__gamma': 0.35, 'model__colsample_bytree': 0.4}","bureau, CC and installment, no housing","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",4.8651,1.0,0.723
+17,"{'model__subsample': 0.9, 'model__n_estimators': 500, 'model__max_depth': 4, 'model__learning_rate': 0.01}","bureau, CC and installment, no housing",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,2.3152,0.877,0.801
+18,"{'model__subsample': 0.7, 'model__num_leaves': 100, 'model__n_estimators': 300, 'model__min_data_in_leaf': 75, 'model__max_depth': 2, 'model__learning_rate': 0.01, 'model__feature_fraction': 0.6}",all files,"LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.3528,0.842,0.791
+19,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}",all files,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",3.496,0.704,0.68
+20,"{'model__subsample': 0.9, 'model__n_estimators': 500, 'model__max_depth': 4, 'model__learning_rate': 0.01}",all files,<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,4.0779,0.879,0.799
+21,"{'model__subsample': 0.7, 'model__num_leaves': 100, 'model__n_estimators': 300, 'model__min_data_in_leaf': 75, 'model__max_depth': 2, 'model__learning_rate': 0.01, 'model__feature_fraction': 0.6}","all files, no housing","LGBMClassifier(objective='binary', random_state=42, verbose=-1)",0.3008,0.841,0.793
+22,"{'model__subsample': 0.7, 'model__reg_lambda': 1, 'model__reg_alpha': 100, 'model__n_estimators': 600, 'model__min_child_weight': 15, 'model__max_depth': 2, 'model__learning_rate': 0.16, 'model__gamma': 0.25, 'model__colsample_bytree': 0.7}","all files, no housing","XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, nthread=4, num_parallel_tree=None,
+              random_state=42, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=0)",3.2277,0.704,0.684
+23,"{'model__subsample': 0.9, 'model__n_estimators': 500, 'model__max_depth': 4, 'model__learning_rate': 0.01}","all files, no housing",<catboost.core.CatBoostClassifier object at 0x7fd2233043d0>,3.3571,0.879,0.811
