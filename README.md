@@ -3,14 +3,6 @@
 Full notebook and journey on kaggle competition https://www.kaggle.com/c/home-credit-default-risk/overview   
 Notebook includes some basic EDA, baseline modelling, feature engineering, merge of files and final modelling with various experiments such as hyperparameters optimization, data sampling, etc.
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Status](#status)
-* [License](#license)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
-
 ## General info
 Participation at kaggle competition was for learning purposes.  
 
